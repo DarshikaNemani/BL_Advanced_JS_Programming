@@ -22,7 +22,15 @@ class LinkedList {
         }
         current.next = newNode;
     }
-
+    print(){
+        let current = this.head;
+        let result = '';
+        while (current!== null){
+            result += current.data + '->';
+            current = current.next;
+        }
+        console.log(result + 'null');
+    }
 }
 
 let ll = new LinkedList();
