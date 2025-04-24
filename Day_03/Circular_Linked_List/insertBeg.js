@@ -32,10 +32,9 @@ class cll {
         do {
             result += current.data + '->';
             current = current.next;
-        } while (current !== this.head) {
+        } while (current !== this.head)
 
-            console.log(result + 'Head');
-        }
+        console.log(result + 'Head');
     }
 }
 
