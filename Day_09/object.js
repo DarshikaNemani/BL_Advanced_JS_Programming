@@ -3,6 +3,8 @@ const person = {
     Lname: "Nemani",
     Age: 21,
     fullName: function(){
-        return Fname
+        return this.Fname + " " + this.Lname;
     }
 };
+
+console.log(`${person.fullName()}`);
