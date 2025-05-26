@@ -23,7 +23,7 @@ Implemented design principles and patterns in various problem statements.
 
 ---
 
-## JavaScript Concepts (Deep Dive)
+## JavaScript Concepts
 
 - Objects and Classes
 - Object References and Copying
